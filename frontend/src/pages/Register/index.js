@@ -10,13 +10,13 @@ import logoImg from '../../assets/logo.png';
 
 export default function Register( ) {
 
-    const [name, setName] = useState(' ');
-    const [email, setEmail] = useState(' ');
-    const [whatsapp, setWhatsapp] = useState(' ');
-    const [cidade, setCidade] = useState(' ');
-    const [uf, setUf] = useState(' ');
+    const [name, setName] = useState('');
+    const [email, setEmail] = useState('');
+    const [whatsapp, setWhatsapp] = useState('');
+    const [cidade, setCidade] = useState('');
+    const [uf, setUf] = useState('');
+    
     const history = useHistory( );
-
 
     async function handleRegister ( e){
         e.preventDefault();
